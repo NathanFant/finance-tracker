@@ -1,5 +1,5 @@
 from datetime import date, datetime
-import expenses
+import income_expenses
 
 """For now, this will be a CLI budget app. Will only track expenses and income.
 In the future, it will be a full-fledged budget app with a GUI and more features.

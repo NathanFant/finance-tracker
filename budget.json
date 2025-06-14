@@ -1,0 +1,15 @@
+{
+    "income": {
+        "hourly": [],
+        "weekly": [],
+        "biweekly": [],
+        "monthly": [],
+        "yearly": []
+    },
+    "expenses": {
+        "weekly": [],
+        "biweekly": [],
+        "monthly": [],
+        "yearly": []
+    }
+}
