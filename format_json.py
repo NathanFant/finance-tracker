@@ -4,7 +4,7 @@ import os
 BUDGET = "budget.json"
 
 
-def default_budget_structure():
+def default_budget_structure() -> dict:
     """Returns the default budget structure."""
     return {
         "income": {
