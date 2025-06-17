@@ -1,6 +1,7 @@
 from datetime import date, datetime
 import income_expenses
 from navigate import navigate
+from format_json import prepare_json
 
 """For now, this will be a CLI budget app. Will only track expenses and income.
 In the future, it will be a full-fledged budget app with a GUI and more features.
@@ -19,6 +20,7 @@ def main():
         "Time:",
         datetime.now().strftime("%I:%M %p"),  # 12 hr format
     )
+    prepare_json()  # Prepare the JSON file for the project
     navigate()
     # Here you can add more functionality like adding expenses, income, etc.
     # For now, we will just exit the app.
