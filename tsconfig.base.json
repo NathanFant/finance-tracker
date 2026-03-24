@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    /* =========================
+       Language & Environment
+       ========================= */
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    /* =========================
+       Strictness (Core)
+       ========================= */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    /* =========================
+       Code Quality
+       ========================= */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+
+    /* =========================
+       Emit & Build Behavior
+       ========================= */
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* =========================
+       Interop & Imports
+       ========================= */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+
+    /* =========================
+       Paths & Monorepo Support
+       ========================= */
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["packages/shared/src/*"]
+    },
+
+    /* =========================
+       JSX (Frontend overrides)
+       ========================= */
+    "jsx": "preserve"
+  }
+}
