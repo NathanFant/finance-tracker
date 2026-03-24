@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev:web": "bun run --cwd apps/web dev",
+    "dev:api": "bun run apps/api/src/index.ts",
+    "dev": "bun run dev:web & bun run dev:api"
+  }
+}
